@@ -33,6 +33,9 @@
 			color: #333;
 		}
 		.container {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
 			max-width: 960px;
 			margin: 0 auto;
 			padding: 20px;
@@ -56,6 +59,33 @@
 			font-size: 18px;
 			color: #555;
 		}
+		
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		.image {
+			width: 400px;
+			height: 300px;
+			order: 2;
+			margin-left: 101px;
+		}
+
+		.text {
+			font-size: 20px;
+			order: 1;
+		}
+
+		.custom-box {
+			border: 1px solid #0002;
+			background-color: #f2f2f2;
+			padding: 50px;
+			border-radius: 5px;
+			box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+			margin-bottom: 1px;
+		}
 	</style>
 </head>
 <body>
@@ -72,11 +102,20 @@
 		<a href="termos.html">TERMOS</a>
 	</nav>
 	<div class="container">
-		<div class="intro">
-			<h2>HARDWORK PROJECT</h2>
-			<p>##############</p>
+		<div class="custom-box">
+				<div class="text">
+					<p>A Hard Work Technology é uma empresa especializada em oferecer soluções completas em hardware e produtos tecnológicos. Com uma equipe de profissionais altamente capacitados e experientes, a empresa oferece serviços de vendas, manutenção, reparo e suporte técnico para atender às necessidades dos seus clientes.</p>
+				</div>
 		</div>
-		<p>########.</p>
+		<div class="image">
+			<img src="foto2.png">
+		</div>
 	</div>
+	<div>
+		<center>
+			<p>ENTRE EM CONTATO CONOSCO PARA QUE POSSAMOS AJUDÁ-LO(A) MELHOR.     <a href="faleconosco.html">CLIQUE AQUI</a>
+			</center>
+			</p>
+			</div>
 </body>
 </html>
